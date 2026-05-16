@@ -93,7 +93,7 @@
 
 ### ขั้นตอนการติดตั้ง
 
-1. **คัดลอกโฟลเดอร์** `Sword&SpoonMac` ไปวางในตำแหน่งที่ต้องการ เช่น `/Applications/` หรือโฟลเดอร์ใดก็ได้
+1. **ดาวน์โหลดไฟล์** https://drive.google.com/file/d/1m7mO--61hRhdXa81RyqXfVU2O2wmMH3O/view?usp=sharing
 
 2. **โครงสร้างไฟล์ที่ต้องมีครบ:**
    ```
