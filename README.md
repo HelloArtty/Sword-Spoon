@@ -50,7 +50,7 @@
 
 ### ขั้นตอนการติดตั้ง
 
-1. **ดาวน์โหลดไฟล์** https://drive.google.com/file/d/1Cp0L52Zo5XYPB3mwLwZfEWgMhMoQvVJx/view?usp=sharing
+1. **ดาวน์โหลดไฟล์** [Download](https://drive.google.com/file/d/1pZ6q8nVH1h9o47hLDe-rfWpciFvRb8e8/view?usp=sharing)
 
 2. **โครงสร้างไฟล์ที่ต้องมีครบ** ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีไฟล์ต่อไปนี้ครบทุกไฟล์:
    ```
@@ -93,7 +93,7 @@
 
 ### ขั้นตอนการติดตั้ง
 
-1. **ดาวน์โหลดไฟล์** https://drive.google.com/file/d/1m7mO--61hRhdXa81RyqXfVU2O2wmMH3O/view?usp=sharing
+1. **ดาวน์โหลดไฟล์** [Download](https://drive.google.com/file/d/1KhJ864bU-3-_xC8op3Ti_UdhnUSIX5ZS/view?usp=sharing)
 
 2. **โครงสร้างไฟล์ที่ต้องมีครบ:**
    ```
