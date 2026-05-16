@@ -19,7 +19,7 @@
 ### ขั้นตอน
 
 1. เปิดเว็บเบราว์เซอร์ที่รองรับ (แนะนำ **Google Chrome** หรือ **Microsoft Edge**)
-2. ไปที่ลิงก์: [https://play.unity.com/en/games/6a3b1d5a-23ae-4f11-aa37-7b9fbf7d1b1f/webgl-builds](https://play.unity.com/en/games/6a3b1d5a-23ae-4f11-aa37-7b9fbf7d1b1f/webgl-builds)
+2. ไปที่ลิงก์: [Play]()
 3. รอให้เกมโหลดจนครบ (ขึ้นอยู่กับความเร็วอินเทอร์เน็ต)
 4. กด **Play** แล้วเริ่มเล่นได้เลย
 
