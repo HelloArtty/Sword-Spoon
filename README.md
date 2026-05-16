@@ -50,11 +50,11 @@
 
 ### ขั้นตอนการติดตั้ง
 
-1. **ดาวน์โหลดไฟล์** โดยคัดลอกโฟลเดอร์ `WinSAS` ไปวางในตำแหน่งที่ต้องการ เช่น `C:\Games\Sword-Spoon\`
+1. **ดาวน์โหลดไฟล์** โดยคัดลอกโฟลเดอร์ `Sword&SpoonWin` ไปวางในตำแหน่งที่ต้องการ เช่น `C:\Games\Sword-Spoon\`
 
 2. **โครงสร้างไฟล์ที่ต้องมีครบ** ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีไฟล์ต่อไปนี้ครบทุกไฟล์:
    ```
-   WinSAS/
+   Sword&SpoonWin/
    ├── Game-Test.exe               ← ไฟล์หลักสำหรับรันเกม
    ├── UnityPlayer.dll             ← ไลบรารี Unity (จำเป็น)
    ├── UnityCrashHandler64.exe     ← ตัวจัดการข้อผิดพลาด
@@ -93,18 +93,18 @@
 
 ### ขั้นตอนการติดตั้ง
 
-1. **คัดลอกโฟลเดอร์** `MacOSApple` ไปวางในตำแหน่งที่ต้องการ เช่น `/Applications/` หรือโฟลเดอร์ใดก็ได้
+1. **คัดลอกโฟลเดอร์** `Sword&SpoonMac` ไปวางในตำแหน่งที่ต้องการ เช่น `/Applications/` หรือโฟลเดอร์ใดก็ได้
 
 2. **โครงสร้างไฟล์ที่ต้องมีครบ:**
    ```
-   MacOSApple/
-   └── MacSAS.app    ← แอปพลิเคชันหลัก (ดับเบิลคลิกเพื่อเปิด)
+   Sword&SpoonMac/
+   └── Sword&Spoon.app    ← แอปพลิเคชันหลัก (ดับเบิลคลิกเพื่อเปิด)
    ```
 
 3. **เปิดเกมครั้งแรก (สำคัญมาก)** — เนื่องจาก macOS มีระบบความปลอดภัย Gatekeeper ต้องทำตามขั้นตอนนี้:
 
    **วิธีที่ 1: คลิกขวา (แนะนำ)**
-   - คลิกขวาที่ `MacSAS.app`
+   - คลิกขวาที่ `Sword&Spoon.app`
    - เลือก **"Open"** (เปิด)
    - เมื่อมี dialog แจ้งเตือนปรากฏ คลิก **"Open"** อีกครั้ง
    - หลังจากนี้สามารถดับเบิลคลิกเปิดได้ตามปกติ
@@ -112,11 +112,11 @@
    **วิธีที่ 2: ผ่าน System Settings**
    - ไปที่ **System Settings → Privacy & Security**
    - เลื่อนลงมาดูส่วน Security
-   - จะเห็นข้อความว่า `"MacSAS" was blocked...` คลิก **"Open Anyway"**
+   - จะเห็นข้อความว่า `"Sword&Spoon" was blocked...` คลิก **"Open Anyway"**
 
    **วิธีที่ 3: ผ่าน Terminal** (สำหรับผู้ใช้ขั้นสูง)
    ```bash
-   xattr -cr /path/to/MacOSApple/MacSAS.app
+   xattr -cr /path/to/Sword&SpoonMac/Sword&Spoon.app
    ```
    แล้วดับเบิลคลิกเปิดได้เลย
 
@@ -126,7 +126,7 @@
 
 ### การย้ายไปที่ Applications
 
-สามารถลากไฟล์ `MacSAS.app` ไปวางในโฟลเดอร์ `/Applications/` เพื่อให้ปรากฏใน Launchpad ได้เลย
+สามารถลากไฟล์ `Sword&Spoon.app` ไปวางในโฟลเดอร์ `/Applications/` เพื่อให้ปรากฏใน Launchpad ได้เลย
 
 ---
 
@@ -159,7 +159,7 @@
 | หน้าจอดำ / ค้าง | อัปเดตไดรเวอร์การ์ดจอ |
 | FPS ต่ำ | ลดความละเอียดและคุณภาพกราฟิกในหน้าตั้งค่าก่อนเริ่มเกม |
 | Windows บล็อกการรัน | คลิก "More info" → "Run anyway" |
-| เกม Crash | อย่าลบโฟลเดอร์ `Game-Test_Data` และ `MonoBleedingEdge` |
+| เกม Crash | อย่าลบโฟลเดอร์ `Game-Test_Data` และ `MonoBleedingEdge` ออกจากโฟลเดอร์ `Sword&SpoonWin` |
 
 ### macOS
 
